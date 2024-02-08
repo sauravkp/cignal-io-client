@@ -1,19 +1,19 @@
 {
-  "name": "protoo-client",
-  "version": "4.0.6",
-  "description": "protoo JavaScript client module",
-  "author": "Iñaki Baz Castillo <ibc@aliax.net>",
-  "homepage": "https://protoo.versatica.com",
+  "name": "cignal-io-client",
+  "version": "1.0.0",
+  "description": "cignal-io JavaScript client module",
+  "author": "Saurav Panda",
+  "homepage": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibc/protoo.git"
+    "url": "https://github.com/sauravkp/cignal-io-client.git"
   },
   "main": "lib/index.js",
   "keywords": [
     "nodejs",
     "browser",
-    "websocket"
+    "socket.io"
   ],
   "engines": {
     "node": ">=8.0.0"
@@ -24,12 +24,10 @@
   "dependencies": {
     "debug": "^4.3.1",
     "events": "^3.2.0",
-    "retry": "^0.12.0"
+    "socket.io-client": "^4.5.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
   },
-  "optionalDependencies": {
-    "websocket": "^1.0.33"
-  }
+  "optionalDependencies": {}
 }
